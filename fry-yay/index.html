@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fry-Yay</title>
+  <meta name="desciption"
+    content="This is the Fry-yay's Home Page." />
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Saira+Condensed:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+ 
+</head>
+
+
+<body>
+  <header>
+    <picture>
+        <a href="#"><img src="images/fry-yaylogo.jpg" alt="Fry-yay logo"></a> 
+    </picture>
+    <section>
+        <h1> Fry-Yay</h1>
+        <div class="motto">All-day Breakfast and Snacks</div>
+    </section>
+  </header>
+ <nav>
+      <ul class="navigation">
+          <li><a href="#" onclick="toggleMenu()">&#9776; Menu </a></li>
+          <li><a href="#">Home</a></li>
+          <li><a href="#" target="blank">City</a></li>
+          <li><a href="#" target="blank">Join</a></li>
+          <li><a href="#" target="blank">Directory</a></li>
+          <li><a href="#" target="blank">Contact Us</a></li>
+          
+      </ul>
+ </nav>
+ <main> 
+    <div class="divPic">
+        <photo>
+        <img class="mainDivPicture" src="images/fry-yay8cropped.jpg" alt="image" sizes="100vw"
+        srcset="images/400 re.jpg 400w, images/600 re.jpg 600px, images/800 resolution.jpg 800px>">
+        </photo>
+      <section class="weatherSection">
+        <h2>Current Weather Information</h2>
+        <p>Currently:<span id="descript"></span></p>
+        <p>High:<span id="outputTemp"></span>&deg;F</p>
+        <p>Humidity:<span id="humid"></span></p>
+        <ul class="dailyTemp">
+        <li class="flex-item"><span id="dayofWeek1"></span><img src="" alt="" id="icon1"><span id="forecast1"></span>&deg; F</li>
+        <li class="flex-item"><span id="dayofWeek2"></span><img src="" alt="" id="icon2"><span id="forecast2"></span>&deg; F</li></li>
+        <li class="flex-item"><span id="dayofWeek3"></span><img src="" alt="" id="icon3"><span id="forecast3"></span>&deg; F</li></li>
+        </ul>
+      </section>
+      <section class="joinSection">
+        <h3>Be Part of our Chamber!</h3>
+        <a href="#"><h4>Join Us Now</h4></a>
+
+        
+          </section>
+      <div class="gridArticle">
+       <div class="eventsDiv">
+      <h2>Latest & Upcoming Events:</h2>
+      <p> Canaman Fiesta- August 14, 2021 </p>
+      <p>Barangay Haring Fiesta - August 3, 2021</p>
+      <p>National Disaster Resilience Month- July 2021  </p>
+      <p>Blood Letting Program - July 9, 2021</p>
+      <p>Free Chest X-ray- June 18, 2021</p>
+        </div>
+        <div class="businessDiv">
+          <h2>Our Featured Local Business</h2>
+          <div class="business1">
+            <section>
+          <h3>Alfresh Cravings</h3>
+          <p>If you are looking for delicious snacks but are worried about your health, you can try Alfresh's nutrient-dense, delicious treats. You can satisfy your cravings while staying healthy. 
+          </p>
+           </section>
+          <img src="images/placeholder-300x400 (1).png" data-src="images/rsz_alfresh_picture.jpg" alt="Alfresh Smoothie Fruit Blend">
+          </div>
+          <div class="business1">
+          <section>
+            <h3>Fry-yay</h3>
+            <p>Fry-yay is a take-out corner for your favorite silog meals. Silog meal is a local fastfood menu which is a combination of fried rice, eggs, and meat. They also offer other snacks like burgers and fries.</p>
+          </section>
+            <img src="images/placeholder-300x400 (1).png" data-src="images/rsz_fry-yay_picture.jpg" alt="Fry-yay silog meals">
+        </div>
+          <div class="business1">
+            <section>
+            <h3>Tata's Cakes N' More</h3>
+            <p> If you want affordable but delicious cakes and pastry products Tata's Cakes N' More has you covered. </p>
+          </section>
+            <img src="images/placeholder-300x400 (1).png" data-src="images/rsz_tatas_cake.jpg" alt="Tata's Wedding Cake">
+        </div>
+        </div>
+  
+    <div class="articleDiv">
+      <h2>How we started</h2>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas, animi maxime cumque molestias dignissimos doloremque veritatis perspiciatis blanditiis rerum sit? Totam incidunt unde autem nobis blanditiis possimus ea distinctio? Voluptatem.
+      </p>
+    </div>
+    
+    
+    
+  </div>
+    </div>
+    <div class="contactInfo">
+      <div>
+         <h2>Map</h2>
+         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3877.3479748132168!2d123.18144541419653!3d13.636584403628504!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33a1f34e75c0ebf7%3A0x791b10f02886f783!2sDeca%20Homes%20Nortfield%20Estate%20Subdivision!5e0!3m2!1sen!2sph!4v1627348702816!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+   </div>
+   <div>
+     <h2> Contact Information</h2>
+     <h4>Contact number: 0927-056-4923</h4>
+     <h4>Address: Block 3 Lot 23 Deca Homes Northfield Estates Bagumbayan Norte Naga City</h4>
+     <h4>E-mail: estradacamille.ce@gmail.com</h4>
+   </div>
+
+
+  </main>
+  <footer><span id="perInfo">&copy; 2021 | Canaman Chamber Of Commerce | Philippines | </span>
+    <p>| Current Date: <span id="currentDate"></span></p>
+    <a href="https://www.facebook.com"><img src="images/facebook (1).png"></a>
+    <a href="https://www.instagram.com/"><img src="images/instagram (1).png"></a>
+    <a href="https://www.youtube.com/"><img src="images/youtube.png"></a>
+  </footer>
+  <script src='js/api.js'></script>
+  <script src="js/navmenu.js"></script>
+  <script src="js/lazy.js"></script> 
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+  <script>
+    WebFont.load({
+  google: {
+    families: [
+       'Berkshire Swash']}});
+  </script>
+
+
+
+  
+</body>
+
+</html>
