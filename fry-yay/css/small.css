@@ -112,7 +112,7 @@ font-family: 'Open Sans Condensed', sans-serif;-------------*/
     text-decoration: none;
     font-size:1.5rem;
     font-weight:bolder;
-    font-family:'Berkshire Swash', cursive;
+    font-family:'Nanum Brush Script', cursive;
     color:rgb(211, 44, 44);
     text-align:center;
 }
@@ -145,7 +145,7 @@ h2{text-indent: 1rem;
 }
 .articleDiv{
     margin:0 auto;
-    background-color:aquamarine;
+    background-color:rgb(255, 246, 127);
     padding:1rem;
     
 }
@@ -153,7 +153,7 @@ h2{text-indent: 1rem;
         font-size:1.5rem;   
 }
 .eventsDiv{
-    background-color:#7a9b76;
+    background-color:#9b9776;
     color:white;
     margin:0 auto;
     padding:1rem;
@@ -202,7 +202,7 @@ h2{text-indent: 1rem;
     
 }
 .curWeather{
-    border:#111d4a solid 5px;
+    border:red solid 5px;
     background-color:#f5ae09;
 }
 .dailyTemp{
@@ -218,7 +218,7 @@ h2{text-indent: 1rem;
 /*-----------forms------------*/
 form fieldset {
     margin:.5rem;
-    border: 5px solid #102E4A;
+    border: 5px solid #C21000;
     border-radius: 10px;
     padding:.5rem 2%;
     background-color:white;
@@ -227,7 +227,7 @@ form fieldset {
 }
 form label.top input, label textarea, form label select {
     display:block;
-   border: solid 3px #102E4A;
+   border: solid 3px #C21000;
    border-radius: 4px;
    padding:.50rem;
    color:#36454f;
@@ -251,7 +251,7 @@ form label.radio input{
 input.submitButton{
     border:none;
     background-color:#db5461;
-    color:#102E4A;
+    color:white;
     border-radius:1rem;
     padding:.5rem 1.5rem;
     margin: 1rem 0 2rem 1.5rem;
