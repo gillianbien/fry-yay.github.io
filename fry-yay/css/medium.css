@@ -8,7 +8,7 @@
     .navigation li:first-child{
         display:none;
     }
-    h1{font-size:1.8rem}
+    h1{font-size:2rem}
     footer span, footer p{
         font-size:.9rem;}
    
@@ -72,10 +72,11 @@
     form fieldset{
         margin: 2rem 4rem;
     }
-    .canamanArticle img{
-        width:30rem;
-        float:right;}
+    
         .fry-yayMenu{
             grid-template-columns: 1fr 1fr;
         }
+        .motto{
+            font-size: 1.2rem;}
+          
 }

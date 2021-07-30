@@ -121,7 +121,7 @@ font-family: 'Open Sans Condensed', sans-serif;-------------*/
         }
 h1 {color: white;
     font-family: 'Nanum Brush Script', cursive;
-    font-size: 4rem;
+    font-size: 2rem;
     font-weight: bolder;
     text-indent:1rem;}
 .motto{
@@ -129,7 +129,7 @@ h1 {color: white;
 	letter-spacing: 1pt;
     margin-left: 20px;
 	font-size: .9rem;
-    color: #db5461;
+    color: #ec9fa7;
 }
 h2{text-indent: 1rem;
     color: #C21000;
