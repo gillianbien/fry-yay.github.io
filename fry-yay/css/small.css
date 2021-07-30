@@ -197,9 +197,11 @@ h2{text-indent: 1rem;
 .contactInfo{
     margin:0 auto;
     padding: 1rem 2rem;
-    background-color:white;
-    
-    
+    background-color:white;}
+.contactInfo h2,.contactInfo h4{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bolder;
+    font-size: large;
 }
 .curWeather{
     border:red solid 5px;
