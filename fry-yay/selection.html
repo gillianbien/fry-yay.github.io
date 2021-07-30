@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Saira+Condensed:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata&family=Nanum+Brush+Script&family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/small.css">
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
@@ -43,16 +43,41 @@
  <main> 
    <button onclick="listView()"><i class="fa fa-bars"></i> List</button>
    <button onclick="gridView()"><i class="fa fa-th-large"></i> Grid</button>
-   <div>
-       <h2>Fry-Yay Menu</h2>
-       <img src="images/rsz_fry-yay0.jpg" alt="Cheese burger buy 1 take 1">
-       <img src="images/rsz_fry-yay2.jpg" alt="Regular Burger buy 1 take 1">
-       <img src="images/rsz_fry-yay3.jpg" alt="Bacon Egg and cheese sandwich">
-       <img src="images/rsz_fry-yay4.jpg" alt="Crispy fillet sandwich">
-       <img src="images/rsz_fry-yay5.jpg" alt="Burger overload with bacon">
-       <img src="images/rsz_fry-yay6.jpg" alt="Burger overload original">
-       <img src="images/rsz_fry-yay7.jpg" alt="Burger overload with fries">
-       <img src="images/rsz_fry-yay8.jpg" alt="Loaded fries">
+   <h2>Fry-Yay Menu</h2>
+   <div class="fry-yayMenu">
+      
+      <picture>
+       <a href="https://www.foodpanda.ph/restaurant/l2tn/fry-yay-deca-homes"><img src="images/rsz_fry-yay0.jpg" alt="Cheese burger buy 1 take 1"></a> 
+       <figcaption>Buy 1 Take 1 Cheese Burger</figcaption>
+      </picture>
+      <picture>
+        <a href="https://www.foodpanda.ph/restaurant/l2tn/fry-yay-deca-homes"> <img src="images/rsz_fry-yay2.jpg" alt="Regular Burger buy 1 take 1"></a>
+       <figcaption>Buy 1 Take 1 Regular Burger</figcaption>
+      </picture>
+      <picture>
+      <a href="https://www.foodpanda.ph/restaurant/l2tn/fry-yay-deca-homes"><img src="images/rsz_fry-yay3.jpg" alt="Bacon Egg and cheese sandwich"></a>
+       <figcaption>Bacon, fried egg and cheese sandwiched between buns</figcaption>
+      </picture>
+      <picture>
+      <a href="https://www.foodpanda.ph/restaurant/l2tn/fry-yay-deca-homes"><img src="images/rsz_fry-yay4.jpg" alt="Crispy fillet sandwich"></a>
+       <figcaption>Chicken fillet and fried egg sandwiched between buns</figcaption>
+      </picture>
+      <picture>
+        <a href="https://www.foodpanda.ph/restaurant/l2tn/fry-yay-deca-homes"><img src="images/rsz_fry-yay5.jpg" alt="Burger overload with bacon"></a>
+       <figcaption>Beef patty, fried egg, lettuce, cheese and special sauces</figcaption>
+      </picture>
+      <picture>
+        <a href="https://www.foodpanda.ph/restaurant/l2tn/fry-yay-deca-homes"><img src="images/rsz_fry-yay6.jpg" alt="Burger overload original"></a>
+       <figcaption>Beef patty, bacon strips, fried egg, lettuce, cheese and special sauces</figcaption>
+      </picture>
+      <picture>
+        <a href="https://www.foodpanda.ph/restaurant/l2tn/fry-yay-deca-homes"><img src="images/rsz_fry-yay7.jpg" alt="Burger overload with fries"></a>
+       <figcaption>Beef patty, bacon strips, fried egg, lettuce, cheese and special sauces with fries</figcaption>
+      </picture>
+      <picture>
+        <a href="https://www.foodpanda.ph/restaurant/l2tn/fry-yay-deca-homes"><img src="images/rsz_fry-yay8.jpg" alt="Loaded fries"></a>
+       <figcaption></figcaption>
+      </picture>
        </div>
 
     
@@ -69,7 +94,7 @@
            <h4>E-mail: estradacamille.ce@gmail.com</h4>
          </div>
   </main>
-  <footer><span id="perInfo">&copy; 2021 | Canaman Chamber Of Commerce | Philippines | </span>
+  <footer><span id="perInfo">&copy; 2021 | Fry-Yay Naga City | Philippines | </span>
     <p>| Current Date: <span id="currentDate"></span></p>
     <div class="navFooter">
     <a href="https://www.facebook.com"><img src="images/facebook (1).png"></a>
@@ -77,7 +102,6 @@
     <a href="https://www.youtube.com/"><img src="images/youtube.png"></a>
   </div>
   </footer>
-  <script src="js/busJson.js"></script>
   <script src="js/navmenu.js"></script>
   <script src="js/listGrid.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>

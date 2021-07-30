@@ -1,0 +1,81 @@
+@media only screen and (min-width: 37.5em) {
+    .navigation { display: flex; }
+    .navigation li {display:block;
+                 flex: 1 1 100%;
+                 font-size:1.2rem;
+                 padding:4px;
+              }
+    .navigation li:first-child{
+        display:none;
+    }
+    h1{font-size:1.8rem}
+    footer span, footer p{
+        font-size:.9rem;}
+   
+    .attentionSection, .weatherSection{
+            position:absolute;
+            top:25px;
+            left: 50px;
+            padding: 1.5rem;
+            opacity: .9;
+            margin-left:15rem;
+            margin-top:5rem;}     
+   
+    .joinSection{
+        background: radial-gradient(white,#f5ae09);
+        position:-webkit-sticky;
+        position:sticky;
+        top: 0;
+        right: 0;
+        padding:0;
+        background-color:White;
+        color:#111d4a;
+        border: 4px outset #111d4a;
+        border-radius:20px;
+        height:5rem;}
+    .joinSection a{
+        text-decoration: none;
+        font-weight: bold;
+        font-size:1rem;
+        padding:0;
+        text-align:center;
+        }
+    .divPic{
+        width:98%;
+        height:70%;
+    }
+    
+    .gridArticle{
+       grid-template-columns: 1fr 2fr;
+       grid-template-rows:1fr 2fr;
+    }
+    .businessDiv{
+        grid-row: 1/3;
+        font-size:1.2rem;
+        margin:.5rem;
+    }
+    .eventsDiv{
+        grid-row:1/2;
+        align-self:start;
+        font-size:1.2rem;
+        margin:.5rem;
+    }
+    .articleDiv{
+        grid-row:2/3;
+        align-self:start;
+        font-size:1.2rem;
+        margin:.5rem;
+    }
+    .cards{
+        grid-template-columns: 1fr 1fr;
+    }
+    form fieldset{
+        margin: 2rem 4rem;
+    }
+    .canamanArticle img{
+        width:30rem;
+        float:right;}
+        .fry-yayMenu{
+            grid-template-columns: 1fr 1fr;
+        }
+}

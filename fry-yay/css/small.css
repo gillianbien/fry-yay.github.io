@@ -51,13 +51,15 @@ footer{
     overflow: hidden;
     list-style-type: none;
     text-decoration: none;
-    font-family: 'Berkshire Swash', cursive;
+    font-family: 'Nanum Brush Script', cursive;
     color: #E2EEF3;
+    font-size: 2rem;
+    font-weight:700;
     
     }
     
 .navigation li:hover {
-        background-color: #7a9b76;
+        background-color: #f7cf6b;
         color: #0a131a;
     }
 .navigation li:active {
@@ -67,3 +69,313 @@ footer{
                             }
 .responsive li{
     display:block;}
+/*-----------------------
+font-family: 'Inconsolata', monospace;
+font-family: 'Nanum Brush Script', cursive;
+font-family: 'Open Sans Condensed', sans-serif;-------------*/
+.attentionSection{
+    position:relative;
+    top:5px;
+    background: radial-gradient(#f7cf6b,#b93f34);
+    border: 1px;
+    padding: 1rem;
+    box-shadow: 0 0 30px #0f1111;
+}
+.weatherSection{
+        position:relative;
+        top:5px;
+        background: radial-gradient(white,#b93f34);
+        padding: 1rem;
+        box-shadow: 0 0 30px #0f1111;
+    }
+.mainDivPicture{
+        width:100%;
+        height:80%;
+    }
+.divPic{
+    margin:10px auto;
+    position: relative;
+}
+.attentionSection h2{
+    color:white;
+    font-size:1.5rem;
+    font-weight:bold;
+    text-align:center;
+
+}
+.attentionSection p, .weatherSection p{
+    color:white;
+    font-weight:bolder;
+    text-align:center;
+}
+.attentionSection a{
+    text-decoration: none;
+    font-size:1.5rem;
+    font-weight:bolder;
+    font-family:'Berkshire Swash', cursive;
+    color:rgb(211, 44, 44);
+    text-align:center;
+}
+.attentionSection a:hover{
+        color: #db5461;
+        }
+h1 {color: white;
+    font-family: 'Nanum Brush Script', cursive;
+    font-size: 4rem;
+    font-weight: bolder;
+    text-indent:1rem;}
+.motto{
+    font-style:oblique;
+	letter-spacing: 1pt;
+    margin-left: 20px;
+	font-size: .9rem;
+    color: #db5461;
+}
+h2{text-indent: 1rem;
+    color: #C21000;
+}
+.gridArticle{display:grid;
+            grid-template-columns: 1fr;
+    
+}
+.gridArticle img{
+    max-width:90%;
+    margin:2rem 2rem 0rem 2rem;
+
+}
+.articleDiv{
+    margin:0 auto;
+    background-color:aquamarine;
+    padding:1rem;
+    
+}
+.articleDiv p{
+        font-size:1.5rem;   
+}
+.eventsDiv{
+    background-color:#7a9b76;
+    color:white;
+    margin:0 auto;
+    padding:1rem;
+   }
+.eventsDiv p{
+    font-size:1.5rem;
+}
+.businessDiv{
+    padding:1rem;
+    margin:0 auto;
+    background-color:white;
+}
+.business1 p{
+    font-size:1.5rem;
+}
+
+.attentionSection h2{
+    color:#f5ae09;
+}
+
+.joinSection a{
+    text-decoration: none;
+    font-weight: bolder;
+    font-size:1.5rem;
+    padding:0;
+    text-align:center;
+    color:#db5461;}
+.joinSection a:hover{
+ color:#ff0821;
+}
+.joinSection{
+    position:relative;
+    background: white;
+    margin:0;
+    border-radius:0;
+}
+.joinSection h3{
+    text-align: center;
+}
+
+.contactInfo{
+    margin:0 auto;
+    padding: 1rem 2rem;
+    background-color:white;
+    
+    
+}
+.curWeather{
+    border:#111d4a solid 5px;
+    background-color:#f5ae09;
+}
+.dailyTemp{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-size:1rem;
+}
+
+
+
+
+
+/*-----------forms------------*/
+form fieldset {
+    margin:.5rem;
+    border: 5px solid #102E4A;
+    border-radius: 10px;
+    padding:.5rem 2%;
+    background-color:white;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+form label.top input, label textarea, form label select {
+    display:block;
+   border: solid 3px #102E4A;
+   border-radius: 4px;
+   padding:.50rem;
+   color:#36454f;
+   width: 100%;
+   max-width:20rem;
+   background-color:rgb(184, 209, 211);
+}
+form label.top{
+    font-size:.8rem;
+    margin-top:1rem;
+    padding-top:5px;
+
+}
+legend{
+    padding-top:1rem;
+}
+form label.radio input{
+   display:block;
+   width:2rem;
+}
+input.submitButton{
+    border:none;
+    background-color:#db5461;
+    color:#102E4A;
+    border-radius:1rem;
+    padding:.5rem 1.5rem;
+    margin: 1rem 0 2rem 1.5rem;
+    width:90%;
+    max-width:20rem;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+form label.top input:required{
+    border-left:red solid 6px;
+}
+form label.top input:required:valid{
+    border-left:green solid 6px;
+}
+form label{
+    font-size: 1.5rem;
+}
+input.submitButton:hover{
+    background-color:lightcoral;
+    color:#102E4A;
+}
+.formBenefit{
+    margin:1rem 2rem;
+    border:#102E4A solid 5px;
+
+}
+iframe{
+   width:90%;
+    
+}
+footer img{
+margin:3px;
+width:3rem;
+}
+.navFooter{
+    margin-left:3rem;
+}
+.formBenefit section:nth-child(1){
+  background-color:whitesmoke;
+  padding:.5rem 2rem;  
+}
+.formBenefit section:nth-child(2){
+    background-color:#CD7F32;
+    padding:.5rem 2rem;   
+  }
+  .formBenefit section:nth-child(3){
+    background-color:silver; 
+    padding:.5rem 2rem;  
+  }
+  .formBenefit section:nth-child(4){
+    background-color:gold;  
+    padding:.5rem 2rem; 
+  }
+  .formMain h2, .formMain p{
+      margin:1rem 2rem;
+      padding:.5rem 1rem;
+      
+  }
+  .h2thanks{
+      padding:5rem;
+      margin:1rem;
+  }
+  
+  
+   h2, h3, h4{
+      font-family: 'Berkshire Swash', cursive;
+      color:#C21000;
+     
+  }
+p{
+    font-family: 'Saira Condensed', sans-serif;
+    font-weight:700;
+}
+.fry-yayMenu{
+    display:grid;
+    grid-template-columns: 1fr;
+    max-width:1000px;
+    grid-gap: 7px;
+    margin:5px 8px 10px 8px;
+}
+.fry-yayMenu picture:hover{box-shadow: 0 0 50px #333;}
+.fry-yayMenu picture{
+    margin-bottom: 20px;
+    padding-bottom: 10px;}
+figcaption{ padding:5px;
+            text-align:center;}
+.fry-yayMenu img{
+    width:100%;
+    margin-bottom: 2px;
+    filter: blur(0em);
+     transition: filter 0.5s;
+    
+   }
+   #status{
+       width: 90%;
+       max-width:500px;
+       text-align:center;
+       padding:10px;
+       margin:0 auto;
+       border-radius: 8px;
+   }
+   #status.success{
+       background-color:#508d4a; 
+       animation: status 4s ease forwards;  
+   }
+   #status.error{
+    background-color:rgb(202, 47, 47);
+    color:white;
+    animation: status 4s ease forwards;  
+    }
+    @keyframes status{
+        0%{
+            opacity: 1;
+            pointer-events: all;
+        }
+        90%{
+            opacity: 1;
+            pointer-events: all;
+        }100%{
+            opacity: 0;
+            pointer-events: none;
+        }
+    }
+
+
+    
+

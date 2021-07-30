@@ -4,14 +4,14 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Canaman Chamber Of Commerse</title>
+  <title>Fry-Yay Contact Page</title>
   <meta name="desciption"
     content="This is the websites Home Page." />
     <link rel="shortcut icon" href="images/favicon.ico">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Saira+Condensed:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata&family=Nanum+Brush+Script&family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/small.css">
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
@@ -46,20 +46,21 @@
             srcset="images/400 w cropped.jpg 400vw, images/600 w cropped.jpg 600vw, images/800w cropped.jpg 800vw">
         </photo>
       <section class="attentionSection">
-        <h3>Be Part of Us!</h3>
-        <p>Get the latest news and updates. Support Local!</p>
-        <a href="https://gillianbien.github.io/Canaman%20chamber/join.html"><h4>Join Us Now</h4></a>
+        <h3>Check our Menu</h3>
+        <p></p>
+        <a href="https://gillianbien.github.io/fry-yay.github.io/fry-yay/selection.html"><h4>Click</h4></a>
       </section>
       <h2>Contact Us</h2>
-      <form method="post" action="contactform.php">
+      <form method="post" action="https://formspree.io/f/xnqlgpgz" id="my-form">
         <fieldset>
         <label class="top">Full name <input type="text" name="name" minlength="5" required></label>
         <label class="top">Email <input type="email" name="email" placeholder="someone@gmail.com" required></label>
         <label class="top">Message <input type="text" name="message" minlength="5"></label>
         <input type="submit" name="submit" value="Contact Us" class="submitButton" >
       </fieldset>
-     
+      <div id="status"></div>
       </form>
+      
      
     <div class="contactInfo">
       <div>
@@ -82,6 +83,7 @@
   </footer>
   <script src="js/navmenu.js"></script>
   <script src="js/thanks.js"></script>  
+  <script src="js/contact.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
   <script>
     WebFont.load({
