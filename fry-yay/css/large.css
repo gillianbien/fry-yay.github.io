@@ -79,9 +79,13 @@
         position:fixed;
         top: 10rem;
         right: 0;
-        padding: 2px 1px;
+        padding: 5px 1px;
         border: 4px outset;
         border-radius:20px;}
+    .joinSection a {
+        font-size:2.5rem;
+        padding:10px;
+    }
     
     form fieldset{
         margin:2rem 6rem;

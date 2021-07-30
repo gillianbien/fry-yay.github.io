@@ -23,20 +23,18 @@
    
     .joinSection{
         background: radial-gradient(white,#f5ae09);
-        position:-webkit-sticky;
-        position:sticky;
-        top: 0;
+        top: 40px;
         right: 0;
-        padding:0;
+        padding:2px 5px;
         background-color:White;
         color:#ff0821;
         border: 4px outset #ff0821;
         border-radius:20px;
-        height:5rem;}
+        height:2rem;}
     .joinSection a{
         text-decoration: none;
         font-weight: bold;
-        font-size:1rem;
+        font-size:1.8rem;
         padding:0;
         text-align:center;
         }

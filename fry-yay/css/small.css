@@ -178,25 +178,25 @@ h2{text-indent: 1rem;
     text-decoration: none;
     font-weight: bolder;
     font-size:1.5rem;
-    padding:0;
+    padding:3px;
     text-align:center;
-    color:#db5461;}
+    color:#ff0821}
 .joinSection a:hover{
- color:#ff0821;
+ color:#c44d59;
 }
 .joinSection{
     position:-webkit-sticky;
     position:fixed;
+    top: 30px;
+    right: 0;
     background: radial-gradient(white,#f7cf6b);
-    margin:0 2rem ;
+    margin:0 ;
     padding:0;
     border: #ff0821 2px solid;
-    border-radius:2rem;
+    border-radius:1rem;
+    height:2rem;
 }
-.joinSection h3{
-    text-align: center;
-    padding:0;
-}
+
 
 .contactInfo{
     margin:0 auto;
