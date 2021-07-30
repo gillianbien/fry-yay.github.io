@@ -84,7 +84,7 @@ font-family: 'Open Sans Condensed', sans-serif;-------------*/
 .weatherSection{
         position:relative;
         top:5px;
-        background: radial-gradient(white,#b93f34);
+        background: radial-gradient(#f7cf6b,#b93f34);
         padding: 1rem;
         box-shadow: 0 0 30px #0f1111;
     }
@@ -275,11 +275,7 @@ input.submitButton:hover{
     background-color:lightcoral;
     color:#102E4A;
 }
-.formBenefit{
-    margin:1rem 2rem;
-    border:#102E4A solid 5px;
 
-}
 iframe{
    width:90%;
     
@@ -291,27 +287,8 @@ width:3rem;
 .navFooter{
     margin-left:3rem;
 }
-.formBenefit section:nth-child(1){
-  background-color:whitesmoke;
-  padding:.5rem 2rem;  
-}
-.formBenefit section:nth-child(2){
-    background-color:#CD7F32;
-    padding:.5rem 2rem;   
-  }
-  .formBenefit section:nth-child(3){
-    background-color:silver; 
-    padding:.5rem 2rem;  
-  }
-  .formBenefit section:nth-child(4){
-    background-color:gold;  
-    padding:.5rem 2rem; 
-  }
-  .formMain h2, .formMain p{
-      margin:1rem 2rem;
-      padding:.5rem 1rem;
+
       
-  }
   .h2thanks{
       padding:5rem;
       margin:1rem;
