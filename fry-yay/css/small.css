@@ -51,7 +51,7 @@ footer{
     overflow: hidden;
     list-style-type: none;
     text-decoration: none;
-    font-family: 'Nanum Brush Script', cursive;
+    font-family: 'Barlow Condensed', sans-serif;
     color: #E2EEF3;
     font-size: 2rem;
     font-weight:700;
@@ -112,7 +112,7 @@ font-family: 'Open Sans Condensed', sans-serif;-------------*/
     text-decoration: none;
     font-size:1.5rem;
     font-weight:bolder;
-    font-family:'Nanum Brush Script', cursive;
+    font-family: 'Barlow Condensed', sans-serif;
     color:rgb(211, 44, 44);
     text-align:center;
 }
@@ -120,7 +120,7 @@ font-family: 'Open Sans Condensed', sans-serif;-------------*/
         color: #db5461;
         }
 h1 {color: white;
-    font-family: 'Nanum Brush Script', cursive;
+    font-family: 'Barlow Condensed', sans-serif;
     font-size: 2rem;
     font-weight: bolder;
     text-indent:1rem;}
@@ -185,13 +185,17 @@ h2{text-indent: 1rem;
  color:#ff0821;
 }
 .joinSection{
-    position:relative;
-    background: white;
-    margin:0;
-    border-radius:0;
+    position:-webkit-sticky;
+    position:fixed;
+    background: radial-gradient(white,#f7cf6b);
+    margin:0 2rem ;
+    padding:0;
+    border: #ff0821 2px solid;
+    border-radius:2rem;
 }
 .joinSection h3{
     text-align: center;
+    padding:0;
 }
 
 .contactInfo{
@@ -199,7 +203,7 @@ h2{text-indent: 1rem;
     padding: 1rem 2rem;
     background-color:white;}
 .contactInfo h2,.contactInfo h4{
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Barlow Condensed', sans-serif;
     font-weight: bolder;
     font-size: large;
 }
@@ -296,12 +300,12 @@ width:3rem;
   
   
    h2, h3, h4{
-    font-family: 'Inconsolata', monospace;
+    font-family: 'Barlow Condensed', sans-serif;
       color:#C21000;
      
   }
 p{
-    font-family: 'Saira Condensed', sans-serif;
+    font-family: 'Barlow Condensed', sans-serif;
     font-weight:700;
 }
 .fry-yayMenu{
