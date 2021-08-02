@@ -133,6 +133,8 @@ h1 {color: white;
 }
 h2{text-indent: 1rem;
     color: #C21000;
+    font-size: 1.5rem;
+    font-weight:900;
 }
 .gridArticle{display:grid;
             grid-template-columns: 1fr;
@@ -303,6 +305,8 @@ width:3rem;
    h2, h3, h4{
     font-family: 'Barlow Condensed', sans-serif;
       color:#C21000;
+      font-weight:900;
+      font-size:1.5rem;
      
   }
 p{
