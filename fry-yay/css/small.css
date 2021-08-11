@@ -334,6 +334,10 @@ figcaption{ padding:5px;
      transition: filter 0.5s;
     
    }
+   .indexImage{
+       border: solid #C21000 5px;
+       margin: 0 auto;
+   }
    #status{
        width: 90%;
        max-width:500px;
