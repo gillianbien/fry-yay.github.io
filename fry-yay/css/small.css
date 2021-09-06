@@ -149,7 +149,6 @@ h2{text-indent: 1rem;
     margin:0 auto;
     background-color:rgb(255, 246, 127);
     padding:1rem;
-    
 }
 .articleDiv p{
         font-size:1.5rem;   
@@ -157,7 +156,8 @@ h2{text-indent: 1rem;
 .eventsDiv{
     background-color:#9b9776;
     color:white;
-    margin:0 auto;
+    margin:1rem;
+    padding: 1rem;
     
    
    }
@@ -337,9 +337,11 @@ figcaption{ padding:5px;
     
    }
    .picEvent {
-       width:15rem;
+    max-width:90%;
+    margin:2rem 2rem 0rem 2rem;
        border: solid #C21000 2px;
        margin-right:5px;
+       width:90%;
    }
    .indexImage{
        border: solid #C21000 5px;
