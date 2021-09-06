@@ -158,10 +158,12 @@ h2{text-indent: 1rem;
     background-color:#9b9776;
     color:white;
     margin:0 auto;
-    padding:1rem;
+    
+   
    }
 .eventsDiv p{
     font-size:1.5rem;
+    margin-left: 1rem;
 }
 .businessDiv{
     padding:1rem;
@@ -333,6 +335,11 @@ figcaption{ padding:5px;
     filter: blur(0em);
      transition: filter 0.5s;
     
+   }
+   .picEvent {
+       width:15rem;
+       border: solid #C21000 2px;
+       margin-right:5px;
    }
    .indexImage{
        border: solid #C21000 5px;
